@@ -31,10 +31,10 @@ Definiciones:
 
 Propiedades:
 * La señal es de energía si $\varepsilon_x<\infty$, análogo para la potencia.
-* Si la señal tiene valor no nulo, nunca podrá ser de energía.
+* Si la señal tiene valor medio no nulo, nunca podrá ser de energía.
   * Si la señal es periódica, $\varepsilon = \infty$
-* Si $\varepsilon<\infty\Rightarrow P_x=0$
-* Si $P_x<\infty\Rightarrow \varepsilon=\infty$ (corolario de lo anterior)
+* Si $\varepsilon_x<\infty\Rightarrow P_x=0$
+* Si $P_x<\infty\Rightarrow \varepsilon_x=\infty$ (corolario de lo anterior)
 * Si la señal es de potencia, en el contenido en frecuencia de la misma (espectro o transformada de fourier de la señal) aparecerán $\delta(t)$.
 
 <details><summary>Análisis de la potencia de una <b>señal truncada</b></summary>
