@@ -1,9 +1,32 @@
-# Introducción a la Nomenclatura
+---
+"lang": "en",
+"title": "Euler's Identity",
+"subtitle": "How to combine 5 important math constants to a short formula",
+"authors": ["Max Muster<sup>1</sup>", "Lisa Master<sup>2</sup>"],
+"adresses": ["<sup>1</sup>Hochschule Gartenstadt","<sup>2</sup>Universität Übersee"],
+"date": "May 2021",
+"description": "mdmath LaTeX demo site",
+"tags": ["markdown+math","VSCode","static page","publication","LaTeX","math"]
+---
+
+# Tema 1
+
+## Introducción a la Nomenclatura
+
+<style>
+  table {
+    margin: 0px 0px 0px 0px;
+  }
+</style>
+
+<center>
 
 |Modelos para señales| SVID | SVIC |
 |:-| :-: | :-: |
 |Señal determinística| $x[n]$ | $x(t)$ |
 |Señal aleatoria| $X[n]$ | $X(t)$ |
+
+</center>
 
 ## Modelo Determinístico
 
@@ -50,11 +73,21 @@ $$ x_{T}(t) = x(t) ⊓(\frac{1}{2T}t) $$
 
 | | |
 |-|-|
-|SVID| $$ P_{x}= \lim_{N\to\infty}\frac{1}{2N+1}\sum_{n=-\infty}^{\infty}\lvert x_{N}^{2}[n] \rvert=\lim_{N\to\infty}\frac{\varepsilon_{x_{N}}}{2N+1} $$ |
-|SVIC| $$ P_{x}= \lim_{T\to\infty}\frac{1}{2T}\int_{-\infty}^{\infty}\lvert x_{T}^{2}(t) \rvert=\lim_{T\to\infty}\frac{\varepsilon_{x_{T}}}{2T} $$ |
+|SVID| $ P_{x}= \lim_{N\to\infty}\frac{1}{2N+1}\sum_{n=-\infty}^{\infty}\lvert x_{N}^{2}[n] \rvert=\lim_{N\to\infty}\frac{\varepsilon_{x_{N}}}{2N+1} $ |
+|SVIC| $ P_{x}= \lim_{T\to\infty}\frac{1}{2T}\int_{-\infty}^{\infty}\lvert x_{T}^{2}(t) \rvert=\lim_{T\to\infty}\frac{\varepsilon_{x_{T}}}{2T} $ |
 
 </details>
 
+$\boxed{c_i = \langle\psi|\phi\rangle}$
+
+Search by definition $\eqref{1-1}$ or $\ref{1-1}$.
+
+$$
+\begin{aligned} \sin 2\theta = 2\sin \theta \cos \theta \\ = \cfrac{2 \tan \theta}{1+\tan^2 \theta} \end{aligned} \label{1-1}\tag{1-1}
+$$
+
 <!-- TODO: hacer un summary de señales de potencias periódicas, ayudarse con el ejercicio P1-Ej. 1 a) I. -->
 
-$$ \underset{a}{\underbrace{1111111111111111111}} $$
+$$ \underset{\htmlStyle{color: red;}{x}}{\underbrace{1111111111111111111}} $$
+
+
